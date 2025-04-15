@@ -9,7 +9,8 @@ local SimpleText = draw.SimpleText
 local COLOR_BACKGROUND  = Color(0, 0, 0, 150)
 
 local HIDE = {
-    ["CHudHealth"] = true
+    ["CHudHealth"] = true,
+    ["CHudBattery"] = true,
 }
 
 local Scale = function(v) return ScrH() * (v / 900) end
